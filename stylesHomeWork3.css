@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #F5F5F5;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .general-form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    width: 420px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+  }
+  
+  .content .close {
+    top: 15px;
+    right: 15px;
+    font-weight: 800;
+    position: absolute;
+    text-align: center;
+  }
+  
+  .form {
+    padding: 24px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .form div input {
+    width: 100%;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .form div input:hover,
+  .form div input:focus {  
+    border-color: #e5cf52;;
+  }
+  
+  .form div input:hover{
+    background: #e5cf52;;
+  }
+  
+  .form div input:focus {  
+    background:white;
+    color: #1A1A1A;
+    padding-top: 21px;
+    padding-bottom: 7px;
+    outline: none;  
+  }
+  
+  .form div>*:first-child {
+    margin-top: 24px;
+  }
+  
+  .form div>*:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  .form p {
+    margin-top: 24px;  
+    font-weight: 400;
+    font-size: 12px;
+    color: #7B8E98;
+  }
+  
+  .button {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #CFD8DC;
+    padding-top: 14px;
+    padding-bottom: 14px;    
+    border-radius: 55px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1A1A1A;
+  }
+  
+  .button:hover, .btn:focus {
+    background: #e5cf52;
+    border-color: #e5cf52;
+  }
